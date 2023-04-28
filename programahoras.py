@@ -3,7 +3,7 @@ from tkinter import *
 import os
 
 janela = Tk()
-janela.title()
+janela.title("Horario")
 janela.geometry("800x450")
 janela.config(background="#110d04")
 
