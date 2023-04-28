@@ -23,12 +23,12 @@ def get_horas():
     data.config(text=data_agora)
     data.after(1000,get_horas)
     
-
+Label(width="10", height="4", bg="#141414").pack()
 mensagem = Label( font="Arial 50")
-mensagem.pack()
+mensagem.pack(pady=10)
 Label(font="Arial 30", text=f"{strftime('%a, %d %b %Y')}", fg="#b62ff5", bg="#141414").pack()
 data = Label(font="Arial 90", fg="#b62ff5", bg="#141414")
-data.pack()
+data.pack(pady=5)
 
 get_horas()
 janela.mainloop()
